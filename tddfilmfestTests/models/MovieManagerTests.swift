@@ -75,4 +75,27 @@ class MovieManagerTests: XCTestCase {
         let movieQueried = sut.checkedOffMovieAtIndex(index: 0)
         XCTAssertEqual(scifi.title, movieQueried.title)
     }
+    
+    // MARK: Clearing
+    func testClearArrays_ReturnsArrayCountOfZero() {
+        sut.addMovie(movie: scifi)
+        sut.addMovie(movie: action)
+        sut.checkOffMovieAtIndex(index: 0)
+        
+        XCTAssertEqual(sut.moviesToSeeCount, 1)
+        XCTAssertEqual(sut.moviesSeenCount, 1)
+        
+        sut.clearArrays()
+        
+        XCTAssertEqual(sut.moviesToSeeCount, 0)
+        XCTAssertEqual(sut.moviesSeenCount, 0)
+    }
+    
+    // MARK: Duplicates
+    func testDuplicateMovies_ShouldNotBeAddedToArray() {
+        sut.addMovie(movie: scifi)
+        sut.addMovie(movie: scifi)
+        
+        XCTAssertEqual(sut.moviesToSeeCount, 1)
+    }
 }

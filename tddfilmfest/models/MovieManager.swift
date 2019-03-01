@@ -16,7 +16,9 @@ class MovieManager {
     private var moviesSeenArray = [Movie]()
     
     func addMovie(movie: Movie) {
-        self.moviesToSeeArray.append(movie)
+        if !moviesToSeeArray.contains(movie) {
+            self.moviesToSeeArray.append(movie)
+        }
     }
     
     func movieAtIndex(index: Int) -> Movie {
@@ -32,5 +34,10 @@ class MovieManager {
     
     func checkedOffMovieAtIndex(index: Int) -> Movie {
         return moviesSeenArray[index]
+    }
+    
+    func clearArrays() {
+        self.moviesToSeeArray.removeAll()
+        self.moviesSeenArray.removeAll()
     }
 }

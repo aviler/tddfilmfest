@@ -79,13 +79,13 @@
 		A75B1F122228CBA6005D658E /* tddfilmfest */ = {
 			isa = PBXGroup;
 			children = (
-				A7CB874B2228D255002079D3 /* model */,
-				A75B1F1A2228CBAC005D658E /* Assets.xcassets */,
-				A75B1F1C2228CBAC005D658E /* LaunchScreen.storyboard */,
-				A75B1F1F2228CBAC005D658E /* Info.plist */,
+				A7CB874B2228D255002079D3 /* models */,
+				A7CB874F2228D95A002079D3 /* controllers */,
 				A75B1F132228CBA6005D658E /* AppDelegate.swift */,
-				A75B1F152228CBA6005D658E /* ViewController.swift */,
 				A75B1F172228CBA6005D658E /* Main.storyboard */,
+				A75B1F1C2228CBAC005D658E /* LaunchScreen.storyboard */,
+				A75B1F1A2228CBAC005D658E /* Assets.xcassets */,
+				A75B1F1F2228CBAC005D658E /* Info.plist */,
 			);
 			path = tddfilmfest;
 			sourceTree = "<group>";
@@ -93,18 +93,42 @@
 		A75B1F272228CBAC005D658E /* tddfilmfestTests */ = {
 			isa = PBXGroup;
 			children = (
+				A7CB87512228D97D002079D3 /* controllers */,
+				A7CB87502228D977002079D3 /* models */,
 				A75B1F2A2228CBAC005D658E /* Info.plist */,
-				A7CB87492228D204002079D3 /* MovieStructTests.swift */,
 			);
 			path = tddfilmfestTests;
 			sourceTree = "<group>";
 		};
-		A7CB874B2228D255002079D3 /* model */ = {
+		A7CB874B2228D255002079D3 /* models */ = {
 			isa = PBXGroup;
 			children = (
 				A7CB874C2228D266002079D3 /* Movie.swift */,
 			);
-			path = model;
+			path = models;
+			sourceTree = "<group>";
+		};
+		A7CB874F2228D95A002079D3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A75B1F152228CBA6005D658E /* ViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A7CB87502228D977002079D3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB87492228D204002079D3 /* MovieStructTests.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A7CB87512228D97D002079D3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

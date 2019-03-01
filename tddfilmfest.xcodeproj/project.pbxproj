@@ -12,7 +12,6 @@
 		A75B1F192228CBA6005D658E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B1F172228CBA6005D658E /* Main.storyboard */; };
 		A75B1F1B2228CBAC005D658E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75B1F1A2228CBAC005D658E /* Assets.xcassets */; };
 		A75B1F1E2228CBAC005D658E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75B1F1C2228CBAC005D658E /* LaunchScreen.storyboard */; };
-		A75B1F292228CBAC005D658E /* tddfilmfestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75B1F282228CBAC005D658E /* tddfilmfestTests.swift */; };
 		A7CB874A2228D204002079D3 /* MovieStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB87492228D204002079D3 /* MovieStructTests.swift */; };
 		A7CB874D2228D266002079D3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB874C2228D266002079D3 /* Movie.swift */; };
 /* End PBXBuildFile section */
@@ -36,7 +35,6 @@
 		A75B1F1D2228CBAC005D658E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A75B1F1F2228CBAC005D658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75B1F242228CBAC005D658E /* tddfilmfestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddfilmfestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A75B1F282228CBAC005D658E /* tddfilmfestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddfilmfestTests.swift; sourceTree = "<group>"; };
 		A75B1F2A2228CBAC005D658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7CB87492228D204002079D3 /* MovieStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStructTests.swift; sourceTree = "<group>"; };
 		A7CB874C2228D266002079D3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		A75B1F272228CBAC005D658E /* tddfilmfestTests */ = {
 			isa = PBXGroup;
 			children = (
-				A75B1F282228CBAC005D658E /* tddfilmfestTests.swift */,
 				A75B1F2A2228CBAC005D658E /* Info.plist */,
 				A7CB87492228D204002079D3 /* MovieStructTests.swift */,
 			);
@@ -221,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A75B1F292228CBAC005D658E /* tddfilmfestTests.swift in Sources */,
 				A7CB874A2228D204002079D3 /* MovieStructTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

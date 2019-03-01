@@ -8,3 +8,5 @@ Checkout develop branch, I will probably only finish a release to master when I 
 Changelog
 ---------
 
+**0.0.1** - Project Setup
+

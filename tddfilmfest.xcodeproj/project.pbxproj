@@ -21,6 +21,7 @@
 		A7CB875D2229F5D5002079D3 /* MovieLibraryDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB875C2229F5D5002079D3 /* MovieLibraryDataServiceTests.swift */; };
 		A7CB87602229FF7E002079D3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB875F2229FF7E002079D3 /* MovieCell.swift */; };
 		A7CB8763222ABCA4002079D3 /* MockExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB8762222ABCA4002079D3 /* MockExtensions.swift */; };
+		A7CB8766222AC721002079D3 /* MovieCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CB8765222AC721002079D3 /* MovieCellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A7CB875C2229F5D5002079D3 /* MovieLibraryDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLibraryDataServiceTests.swift; sourceTree = "<group>"; };
 		A7CB875F2229FF7E002079D3 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		A7CB8762222ABCA4002079D3 /* MockExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExtensions.swift; sourceTree = "<group>"; };
+		A7CB8765222AC721002079D3 /* MovieCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		A75B1F272228CBAC005D658E /* tddfilmfestTests */ = {
 			isa = PBXGroup;
 			children = (
+				A7CB8764222AC6E7002079D3 /* testviews */,
 				A7CB8761222ABC82002079D3 /* mocks */,
 				A7CB875B2229F55A002079D3 /* dataservice */,
 				A7CB87512228D97D002079D3 /* controllers */,
@@ -182,6 +185,14 @@
 				A7CB8762222ABCA4002079D3 /* MockExtensions.swift */,
 			);
 			path = mocks;
+			sourceTree = "<group>";
+		};
+		A7CB8764222AC6E7002079D3 /* testviews */ = {
+			isa = PBXGroup;
+			children = (
+				A7CB8765222AC721002079D3 /* MovieCellTests.swift */,
+			);
+			path = testviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				A7CB87532229967F002079D3 /* MovieManagerTests.swift in Sources */,
 				A7CB874A2228D204002079D3 /* MovieStructTests.swift in Sources */,
 				A7CB8763222ABCA4002079D3 /* MockExtensions.swift in Sources */,
+				A7CB8766222AC721002079D3 /* MovieCellTests.swift in Sources */,
 				A7CB87572229D56A002079D3 /* LibraryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

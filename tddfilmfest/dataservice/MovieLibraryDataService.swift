@@ -60,4 +60,12 @@ class MovieLibraryDataService: NSObject, UITableViewDataSource, UITableViewDeleg
         }
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        guard let librarySection = LibrarySection(rawValue: section) else {fatalError()}
+        
+        let sectionTitle = librarySection.rawValue == 0 ? "Movies To See" : "Movies Seen"
+        
+        return sectionTitle
+    }
+    
 }

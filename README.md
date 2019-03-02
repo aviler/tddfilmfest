@@ -10,5 +10,7 @@ Repository to keep track of my progress during iOS App Development: Test-Driven 
 Changelog
 ---------
 
+**1.0.0** - Finished the course! Let's keep learning! :muscle:
+
 **0.0.1** - Project Setup
 
